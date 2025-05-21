@@ -26,19 +26,39 @@ A simple and elegant Java Servlet-based web application that converts temperatur
 ## 📁 Project Structure
 
 TemperatureConverterWeb/
+
 ├── .classpath
+
 ├── .project
+
 ├── .settings/
+
 │   └── org.eclipse.jdt.core.prefs
+
 ├── build/
+
 ├── src/
+
+│   └── main/
+
+│   └── java/
+
 │   └── com/
+
 │       └── example/
+
 │           └── TemperatureServlet.java
-├── WebContent/
+
+├── Webapp/
+
 │   ├── index.jsp
+
 │   ├── style.css (optional if extracted from <style>)
+
 │   └── WEB-INF/
+
 │       ├── web.xml
+
 │       └── lib/               <-- Only needed if using external JARs
+
 └── README.md
